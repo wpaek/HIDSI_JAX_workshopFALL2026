@@ -33,7 +33,7 @@ Run the cells from top to bottom. Each one introduces one idea:
 ### Option A: Google Colab (recommended)
 Click the badge at the top. Colab already has JAX installed, and the default CPU runtime is enough.
 In the saved run (Colab CPU), the `jit` timing cell showed about 358 ms per call uncompiled versus
-about 182 ms compiled; your numbers will vary with the hardware.
+about 182 ms compiled.
 
 ### Option B: your own computer
 ```bash
