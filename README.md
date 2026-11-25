@@ -3,7 +3,7 @@
 Materials from the HIDSI Workshop Series session on JAX and differentiable optimization
 (University of Hawaiʻi, October 1, 2026), presented by William Kwonho Paek.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/HIDSI_JAX_workshop/blob/main/notebooks/Oct1JAXworkshop.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wpaek/HIDSI_JAX_workshop/blob/main/Oct1JAXworkshop.ipynb)
 
 The fastest way to follow along is the button above: it opens the demo notebook in Google Colab,
 with nothing to install.
@@ -12,9 +12,9 @@ with nothing to install.
 
 | # | Module | Material |
 |---|--------|----------|
-| 1 | **Live demo**: JAX solves and differentiates a small problem | [`notebooks/Oct1JAXworkshop.ipynb`](notebooks/Oct1JAXworkshop.ipynb) |
-| 2 | **What can JAX do?** `grad`, `jit`, `vmap`, and putting a solver inside a model | [`slides/What_Can_JAX_Do.pdf`](slides/What_Can_JAX_Do.pdf) |
-| 3 | **Math meets technology**: a short history of differentiable optimization, and where mathematics and AI stand in 2026 | [`slides/History_of_Differentiable_Optimization.pdf`](slides/History_of_Differentiable_Optimization.pdf), [`slides/Mathematics_AI_2026_Turning_Point.pdf`](slides/Mathematics_AI_2026_Turning_Point.pdf) |
+| 1 | **Live demo**: JAX solves and differentiates a small problem | [`Oct1JAXworkshop.ipynb`](Oct1JAXworkshop.ipynb) |
+| 2 | **What can JAX do?** `grad`, `jit`, `vmap`, and putting a solver inside a model | [What Can JAX Do (PDF)](slides/What%20Can%20JAX%20Do.pdf) |
+| 3 | **Math meets technology**: a short history of differentiable optimization, and where mathematics and AI stand in 2026 | [History of Differentiable Optimization (PDF)](slides/History%20of%20Differentiable%20Optimization.pdf), [Mathematics AI 2026 Turning Point (PDF)](slides/Mathematics%20AI%202026%20Turning%20Point.pdf) |
 | 4 | **Q&A**: discussion of participants' own research problems | — |
 
 ## The demo notebook
@@ -37,10 +37,10 @@ about 182 ms compiled; your numbers will vary with the hardware.
 
 ### Option B: your own computer
 ```bash
-git clone https://github.com/YOUR-USERNAME/HIDSI_JAX_workshop.git
+git clone https://github.com/wpaek/HIDSI_JAX_workshop.git
 cd HIDSI_JAX_workshop
 pip install -r requirements.txt
-jupyter notebook notebooks/Oct1JAXworkshop.ipynb
+jupyter notebook Oct1JAXworkshop.ipynb
 ```
 
 ## Going further
@@ -61,14 +61,18 @@ Optimization Layers* (2019); Bai, Kolter & Koltun, *Deep Equilibrium Models* (20
 ## Repository layout
 ```
 HIDSI_JAX_workshop/
-├── notebooks/
-│   └── Oct1JAXworkshop.ipynb    # live demo (saved from Colab)
+├── Oct1JAXworkshop.ipynb        # live demo (saved from Colab)
 ├── slides/
-│   ├── What_Can_JAX_Do.pdf
-│   ├── History_of_Differentiable_Optimization.pdf
-│   └── Mathematics_AI_2026_Turning_Point.pdf
+│   ├── What Can JAX Do.pdf
+│   ├── History of Differentiable Optimization.pdf
+│   └── Mathematics AI 2026 Turning Point.pdf
 ├── requirements.txt
+├── LICENSE
 └── README.md
 ```
+
+## License
+Code (the notebook) is released under the [MIT License](LICENSE).
+Slides are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 Thanks to the Hawaiʻi Data Science Institute (HIDSI) for hosting the workshop series.
